@@ -16,6 +16,11 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
 body {
   background-color: #f7f7f7;
 }
@@ -34,6 +39,21 @@ body {
   img {
     max-width: 100%;
     height: auto;
+  }
+  .content {
+    -webkit-align-self: center;
+            align-self: center;
+  }
+  .columns {
+    margin: 2em 0;
+    display: flex;
+    .column {
+      flex: 1;
+      margin-right: 1em;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
 </style>
