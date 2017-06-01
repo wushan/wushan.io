@@ -11,14 +11,16 @@
     "breakpoint-sass": "^2.7.1",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.1.1",
-    "nuxt": "latest",
-    "pug": "^2.0.0-beta6",
-    "sass-loader": "^4.1.1"
+    "nuxt": "0.10.6",
+    "pug": "^2.0.0-beta11",
+    "sass-loader": "^4.1.1",
+    "cross-env": "^4.0.0",
+    "express": "^4.15.2"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt build && NODE_ENV=production node server.js",
+    "start": "nuxt build && cross-env NODE_ENV=production node server.js",
     "generate": "nuxt generate"
   }
 }
