@@ -4,6 +4,9 @@
   "description": "personal projects",
   "author": "wushan <chiangloveslynn@gmail.com>",
   "private": true,
+  "engines": {
+    "node": "7.x"
+  },
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
     "font-awesome": "^4.7.0",
@@ -15,7 +18,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "PORT=3000 nuxt start",
+    "start": "nuxt build && NODE_ENV=production node server.js",
     "generate": "nuxt generate"
   }
 }
