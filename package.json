@@ -1,26 +1,37 @@
 {
   "name": "wushan.io",
   "version": "1.0.0",
-  "description": "personal projects",
-  "author": "wushan <chiangloveslynn@gmail.com>",
+  "description": "Nuxt.js project",
+  "author": "tony <tony@simbo.com.tw>",
   "private": true,
   "engines": {
-    "node": "7.x"
-  },
-  "dependencies": {
-    "breakpoint-sass": "^2.7.1",
-    "font-awesome": "^4.7.0",
-    "node-sass": "^4.1.1",
-    "nuxt": "0.10.6",
-    "pug": "^2.0.0-beta11",
-    "sass-loader": "^4.1.1",
-    "cross-env": "^4.0.0",
-    "express": "^4.15.2"
+    "node": "8.x"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt build && cross-env NODE_ENV=production node server.js",
-    "generate": "nuxt generate"
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.5.3",
+    "nuxt": "^1.0.0-rc11",
+    "pug": "^2.0.0-rc.4",
+    "sass-loader": "^6.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }

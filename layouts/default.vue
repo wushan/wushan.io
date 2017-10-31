@@ -1,18 +1,8 @@
 <template>
   <div>
     <nuxt/>
-    <my-footer/>
   </div>
 </template>
-
-<script>
-import MyFooter from '~components/Footer.vue'
-export default {
-  components: {
-    MyFooter
-  }
-}
-</script>
 
 <style lang="scss">
 @import "~breakpoint-sass";
@@ -89,3 +79,4 @@ h1,h2,h3,h4,h5 {
   }
 }
 </style>
+
