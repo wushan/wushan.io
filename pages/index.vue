@@ -6,7 +6,7 @@
         p.
           Some interest personal projects.
         p
-          a(href="https://blog.wushan.io", target="_blank") BLOG
+          a(href="https://blog.unrivaledconcept.com", target="_blank") BLOG
         .columns.projects.restrict
           .column
             .project
@@ -27,10 +27,10 @@
               .content
                 .title
                   h3
-                    a(href="https://notable.wushan.io", target="_blank") NOTABLE「嘸位la！」
+                    a(href="https://notable.unrivaledconcept.com", target="_blank") NOTABLE「嘸位la！」
                   span 小老闆團結！史上最絕奧客防治服務
                 .url
-                  a.fa.fa-lg.fa-chrome(href="https://notable.wushan.io", target="_blank")
+                  a.fa.fa-lg.fa-chrome(href="https://notable.unrivaledconcept.com", target="_blank")
           .column
             .project
               .thumbnails
@@ -45,14 +45,12 @@
                   a.fa.fa-lg.fa-github(href="https://github.com/wushan/VueFabric", target="_blank")
           .column
             .project
-        .contact
-          | Leave me a line / 
-          a(href="mailto:chiang@walkingho.me") chiang@walkingho.me
+        .contact unrivaledconcept.com
 </template>
 <script>
 export default {
   head: {
-    title: 'wushan.io - a Graphic designer & Frontend developer base in Taiwan.',
+    title: 'Unrivaled Concepts - sideprojects',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
