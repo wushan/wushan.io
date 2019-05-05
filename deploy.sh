@@ -16,7 +16,7 @@ ssh wushan@45.32.31.58 <<EOI
 ls -l
 docker stop ${SERVICE_NAME}
 docker rm ${SERVICE_NAME}
-docker run -d --name ${SERVICE_NAME} -p 59482:3000 ${DOCKER_NAME}
+docker run -d --name ${SERVICE_NAME} -p 59482:80 ${DOCKER_NAME}
 docker ps -a
 exit
 EOI

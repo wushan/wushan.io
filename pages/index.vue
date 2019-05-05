@@ -2,12 +2,21 @@
   section
     .container
       .content
-        img(src="~assets/img/wushanio-logo.svg")
+        img(src="~/assets/img/logo.svg")
         p.
-          Some interest personal projects.
-        p
-          a(href="https://blog.unrivaledconcept.com", target="_blank") BLOG
+          Unrivaled Concepts
         .columns.projects.restrict
+          .column
+            .project
+              .thumbnails
+                img(src="~static/ponds-cloud.jpg")
+              .content
+                .title
+                  h3
+                    a(href="https://ponds.cloud", target="_blank") Ponds
+                  span Another super-fast bookmark service for small teams.
+                .url
+                  a.fa.fa-lg.fa-chrome(href="https://ponds.cloud", target="_blank")
           .column
             .project
               .thumbnails
@@ -42,7 +51,6 @@
                   span A Canvas Editor based on Vue.js + Fabric.js
                 .url
                   a.fa.fa-lg.fa-chrome(href="http://vuefabric.surge.sh", target="_blank")
-                  a.fa.fa-lg.fa-github(href="https://github.com/wushan/VueFabric", target="_blank")
           .column
             .project
         .contact unrivaledconcept.com
